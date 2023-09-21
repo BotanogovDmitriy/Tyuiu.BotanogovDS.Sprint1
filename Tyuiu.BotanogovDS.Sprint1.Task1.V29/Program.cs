@@ -48,7 +48,7 @@ namespace Tyuiu.BotanogovDS.Sprint1.Task1.V29
 
                 Console.WriteLine(ds.Calculate(a, b, c));
 
-                Console.ReadLine();
+                Console.ReadLine(); 
             }
         }
     }

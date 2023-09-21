@@ -15,7 +15,7 @@ namespace Tyuiu.BotanogovDS.Sprint1.Task1.V29.Test
             double b = 2;
             double c = 3;
             var res = ds.Calculate(a, b, c);
-            Assert.AreEqual(1, res);
+            Assert.AreEqual(1, res); 
         }
     }
 }
