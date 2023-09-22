@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 using tyuiu.cources.programming.interfaces.Sprint1;
 
-namespace Tyuiu.BotanogovDS.Sprint1.Task1.V29.Lib
+namespace Tyuiu.BotanogovDS.Sprint1.Task2.V30.Lib
 {
-
-    public class DataService : ISprint1Task1V29
+    public class DataService : ISprint1Task2V30
     {
-        public double Calculate(double a, double b, double c)
+        public double ConvertKmToMetre(double value)
         {
-            return a * b * c / (a + b + c); 
+            return value * 1000;
         }
     }
 }
